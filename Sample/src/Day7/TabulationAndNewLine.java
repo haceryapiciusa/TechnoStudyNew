@@ -1,6 +1,9 @@
 package Day7;
 
 public class TabulationAndNewLine {
+    public static void main(String[] args) {
+
+
 //        String s1 = "Bob";
 //        String s2 = "Hello ";
 //        String s3 = "!";
@@ -10,7 +13,7 @@ public class TabulationAndNewLine {
     String s2 = "hello1";
     String s3 = "hello1";
 
-       if( s1 == s2){
+    if(s1 == s2){
         System.out.println("its equal");
     }
     String s4 = new String("ABC");
@@ -36,4 +39,4 @@ public class TabulationAndNewLine {
 
 
 
-}
+}}

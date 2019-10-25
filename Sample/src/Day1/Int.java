@@ -17,7 +17,7 @@ public class Int {
         int e = 50;
         int result = (a + b + c + d + e);
         System.out.println("Sum: " + result);
-        double average = result / 5.0;
+        double average = result / 5;
         System.out.println("Avarage:" + average);
 
 
