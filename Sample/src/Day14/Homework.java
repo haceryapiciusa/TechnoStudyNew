@@ -35,8 +35,5 @@ public class Homework {
         System.out.println(sum);
         System.out.println(average);
 
-
     }
-
-
 }
