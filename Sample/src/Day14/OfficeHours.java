@@ -32,7 +32,7 @@ public class OfficeHours {
         String carArr2[] = new String[3];
 
 //second way to declare the array
-        int[] num = {5,1,2,3,4,10};
+        int[] num = {5,1,7,3,4,10};
 
         System.out.println(num[2]);
 
