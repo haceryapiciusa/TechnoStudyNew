@@ -47,6 +47,13 @@ public class MultiDimrnsionalArraysTask1 {
         }
         System.out.println();
 
-    }
+        System.out.println("======> Homework part 4");
 
+
+        for (int row = 0; row < namesAndSurnames.length-1;row++) {
+            for (int col = 0;col< namesAndSurnames[row].length;col++) {
+                System.out.println(namesAndSurnames[row][col] + " " + namesAndSurnames[row+1][col]);
+            }
+        }System.out.println();
+    }
     }
