@@ -32,7 +32,7 @@ public class FirstIfStatement {
 
 
 
-        int number = 6;
+        int number = 5;
 
         if(number % 2 == 0){
             System.out.println("its an even number");
