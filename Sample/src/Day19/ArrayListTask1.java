@@ -31,8 +31,58 @@ public class ArrayListTask1 {
         //.forEach method
         colors.forEach(color -> System.out.println(color));
 
+        //3. Write a Java program to insert an element into
+        // the array list at the first position.
+
+
         colors.add(0,"Yellow");
         System.out.println(colors);
+        //4.write you code here
+        // print third element in arrayList
+
+        System.out.println(colors.get(3));
+        //5. Write a Java program to update specific array element by given element.
+
+        colors.set(2,"Blue");
+        System.out.println(colors);
+        //6. Write a Java program to remove the third element from a array list.
+
+        colors.remove(3);
+        System.out.println(colors);
+
+        //7.Write a Java program to search an element in a array list.
+        //1.st way
+        boolean containsBlack1 = false;
+        for (String color : colors) {
+            if (color.equals("Black")) {
+                containsBlack1 = true;
+            }
+
+        }
+        if (containsBlack1) {
+            System.out.println("It has Black color");
+        } else {
+            System.out.println("It doesn't have Black color");
+        }
+
+        System.out.println("2. way");
+        boolean containsBlack2 = colors.contains("Black");
+        if (containsBlack2) {
+            System.out.println("It has Black color");
+        } else {
+            System.out.println("It doesn't have Black color");
+        }
+
+        System.out.println("//3rd way");
+        System.out.println("it has black color : "+ colors.contains("Black"));
+
+
+
+
+
+
+
+
 
 
     }
