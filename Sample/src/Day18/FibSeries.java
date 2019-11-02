@@ -28,8 +28,48 @@ public class FibSeries {
 //    Input: 4
 //    Output: 3
 //    Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
-        int a = 1;
-        int b = 1;
+
+
+//        int a = 1;
+//        int b = 1;
+//        int c;
+//        System.out.println(a);
+//        System.out.println(b);
+//
+//        for (int i = 0; i < 10; i++) {
+//            c = a + b;
+//            a = b;
+//            b = c;
+//            System.out.println(c);
+//        }
+
+//        int a = 0;
+//        int b = 1;
+//        int c;
+//        System.out.println(a);
+//        System.out.println(b);
+//
+//        for (int i = 0; i < 10; i++) {
+//            c = a + b;
+//            a = b;
+//            b = c;
+//            System.out.println(c);
+//    }
+
+//        int a = 2;
+//        int b = 3;
+//        int c;
+//        System.out.println(a);
+//        System.out.println(b);
+//
+//        for (int i = 0; i < 10; i++) {
+//            c = a + b;
+//            a = b;
+//            b = c;
+//            System.out.println(c);
+//        }
+        int a = 3;
+        int b = 4;
         int c;
         System.out.println(a);
         System.out.println(b);
