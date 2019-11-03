@@ -8,33 +8,25 @@ public class JavaSetTask16 {
     //ex: [1, 2, 3, 4, 4, 5, 6]  => has duplications
     //ex2: [1, 2, 3] => no duplications
     public static void main(String[] args) {
-        ArrayList<Integer> listNumbers = new ArrayList<>();
-        listNumbers.add(1);
-        listNumbers.add(2);
-        listNumbers.add(3);
-        listNumbers.add(4);
-        listNumbers.add(4);
-        listNumbers.add(5);
-        listNumbers.add(6);
-        System.out.println(listNumbers);
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(4);
+        list.add(5);
+        list.add(6);
+        System.out.println(list+ "size: "+ list.size());
 
-        HashSet<Integer> mySet = new HashSet<>();
-        mySet.add(1);
-        mySet.add(2);
-        mySet.add(3);
-        mySet.add(4);
-        mySet.add(4);
-        mySet.add(5);
-        mySet.add(6);
-        System.out.println(mySet);
+        HashSet<Integer> mySet = new HashSet<>(list);
+
+        System.out.println(mySet + "size: "+ mySet.size());
 
 
-        if(listNumbers.contains(mySet)){
-            System.out.println("has duplication");
+        if(list.size() != mySet.size()){
+            System.out.println("has dublicate");
+        } else {
+            System.out.println("no dublicate");
         }
-        else System.out.println("no duplication");
-
-
     }
-
 }
