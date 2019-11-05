@@ -37,7 +37,8 @@ public class JavaHashMapTask18 {
             System.out.println(str.charAt(i));
         }
 //        System.out.println("2nd=======");
-//
+//     //part2
+//     // put every character in HashSet
 //        HashSet<Character> set = new HashSet<Character>();
 //        char [] c= str.toCharArray();
 //        for (int i = 0; i < c.length; i++) {
@@ -45,7 +46,8 @@ public class JavaHashMapTask18 {
 //        }
 //        System.out.println(set);
         System.out.println("3rd=======");
-
+        //part3
+        // put every character in HashMap<Character, Integer>
         HashMap<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < str.length(); i++) {
             char aChar = str.charAt(i);
