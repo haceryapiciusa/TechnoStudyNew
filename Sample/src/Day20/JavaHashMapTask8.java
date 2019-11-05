@@ -31,8 +31,6 @@ public class JavaHashMapTask8 {
             else {
                 System.out.println("dont have");
             }
-
-    }
-
+        }
     }
 }
