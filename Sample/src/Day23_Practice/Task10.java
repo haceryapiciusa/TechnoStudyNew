@@ -1,4 +1,4 @@
-package Day_23practice;
+package Day23_Practice;
 
 public class Task10 {
     //    10. Write a Java program to find the duplicate values of an array of integer values

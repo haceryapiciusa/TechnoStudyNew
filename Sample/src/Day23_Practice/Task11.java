@@ -1,4 +1,4 @@
-package Day_23practice;
+package Day23_Practice;
 
 import java.util.ArrayList;
 import java.util.TreeSet;

@@ -1,4 +1,4 @@
-package Day_23practice;
+package Day23_Practice;
 
 public class Task2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day_23practice;
+package Day23_Practice;
 
 public class Task7 {
     // given arrayList of chars
@@ -17,7 +17,7 @@ public class Task7 {
                 counter++;
             }
         }
-            if (counter >= 2) {
+        if (counter >= 2) {
                 System.out.println(repeat);
             } else {
                 System.out.println(nonrepeat);

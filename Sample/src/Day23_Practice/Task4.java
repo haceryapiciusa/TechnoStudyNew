@@ -1,4 +1,4 @@
-package Day_23practice;
+package Day23_Practice;
 
 //    Write a Java program to find the smallest element in an array.
 // {1,34,66,1000,23,4,7,9} => 1000

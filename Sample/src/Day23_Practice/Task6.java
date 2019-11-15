@@ -1,4 +1,4 @@
-package Day_23practice;
+package Day23_Practice;
 
 public class Task6 {
     // Given an array of ints,

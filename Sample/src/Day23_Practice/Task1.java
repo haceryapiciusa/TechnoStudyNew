@@ -1,4 +1,4 @@
-package Day_23practice;
+package Day23_Practice;
 
 // write a java program that find maximum
 // of two numbers
