@@ -1,6 +1,6 @@
 package Day2;
 
-public class Exampl {
+public class CharExampl {
     public static void main(String[] args) {
         System.out.print("T");
         System.out.print("E");

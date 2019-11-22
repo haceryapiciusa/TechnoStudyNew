@@ -1,6 +1,6 @@
 package Day7;
 
-public class ConvertingStringToIntAndViceVersa {
+public class Converting {
     public static void main(String[] args) {
         int number = 10;
         String s1 = String.valueOf(number);

@@ -1,6 +1,6 @@
 package Day7;
 
-public class JavaClass3 {
+public class StringConcat {
     public static void main(String[] args) {
         String s1 = "Hello ";
         String s2 = "World !!!";
@@ -9,7 +9,7 @@ public class JavaClass3 {
         System.out.println(s1.concat(s2));
         System.out.println(s1.concat(s2).concat(a3));
 
-        /*String s3 = "What ";
+        String s3 = "What ";
         String s4 = "is ";
         String s5 = "your ";
         String s6 = "name";
@@ -18,6 +18,6 @@ public class JavaClass3 {
         System.out.println(s3+s4+s5+s6+s7);
 
         System.out.println("what\nis\nyour\nname\n?");
-        System.out.println("A\nB\nC\nD\nE\nF");*/
+        System.out.println("A\nB\nC\nD\nE\nF");
     }
 }
