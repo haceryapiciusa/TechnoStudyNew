@@ -1,4 +1,4 @@
-package task;
+package Day38.task;
 // write a program that will count every time when you create an object
 
 // HINT:
@@ -10,7 +10,7 @@ package task;
 
 class Counter{
     //write you code here
-    public int  count = 0;//put static see the difference
+    public static int  count = 0;//put static see the difference
 
     public Counter(){
         count++;
@@ -24,9 +24,10 @@ class Counter{
 public class task1 {
     public static void main(String[] args) {
         Counter c1 = new Counter();
-
         System.out.println("--------------------------");
         Counter c2 = new Counter();
+        System.out.println("--------------------------");
+        Counter c3 = new Counter();
     }
 
 }

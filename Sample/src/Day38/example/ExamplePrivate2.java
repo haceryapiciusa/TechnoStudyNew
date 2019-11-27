@@ -1,4 +1,4 @@
-package Day38;
+package Day38.example;
 
 import java.util.ArrayList;
 import java.util.List;
