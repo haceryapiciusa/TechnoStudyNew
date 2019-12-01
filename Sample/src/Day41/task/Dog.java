@@ -9,7 +9,7 @@ public class Dog extends Animal {
         this.sound = sound;
     }
 
-    
+
 
     @Override
     public String toString() {

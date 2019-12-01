@@ -31,15 +31,15 @@ public class ForLoopsExample {
 
             System.out.println();
         }
-        for(int i = Integer.MAX_VALUE;    ; i++){
-            System.out.println(i);
-
-
-
-            System.out.println("End");
-
-
-        }
+//        for(int i = Integer.MAX_VALUE;    ; i++){
+//            System.out.println(i);
+//
+//
+//
+//            System.out.println("End");
+//
+//
+//        }
 
     }
 }

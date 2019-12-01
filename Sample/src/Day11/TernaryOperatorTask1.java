@@ -16,6 +16,7 @@ public class TernaryOperatorTask1 {
         int min = (val1 <= val2) ? val1 : val2;
 
         System.out.println(max);
+        //System.out.println(min);
 
         int x = -55;
         int abs = x < 0 ? -x : x;
